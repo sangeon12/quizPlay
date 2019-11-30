@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+
+<AnchorPane prefHeight="800.0" prefWidth="1400.0" xmlns="http://javafx.com/javafx/10.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="views4.IncidentController">
+   <children>
+      <Label fx:id="p1" alignment="CENTER" layoutX="2.0" layoutY="318.0" prefHeight="140.0" prefWidth="278.0" style="-fx-background-color: #ddd;" />
+      <Label fx:id="p4" alignment="CENTER" layoutX="844.0" layoutY="318.0" prefHeight="140.0" prefWidth="278.0" style="-fx-background-color: #ddd;" />
+      <Label fx:id="p3" alignment="CENTER" layoutX="561.0" layoutY="318.0" prefHeight="140.0" prefWidth="278.0" style="-fx-background-color: #ddd;" />
+      <Label fx:id="p2" alignment="CENTER" layoutX="279.0" layoutY="318.0" prefHeight="140.0" prefWidth="278.0" style="-fx-background-color: #ddd;" />
+      <Label fx:id="po" alignment="CENTER" layoutX="1122.0" layoutY="318.0" prefHeight="140.0" prefWidth="278.0" style="-fx-background-color: #ddd;" />
+      <Label layoutX="123.0" layoutY="123.0" text="한범식" />
+      <Label layoutX="1219.0" layoutY="123.0" prefHeight="9.0" prefWidth="27.0" text="경찰" />
+      <Label layoutX="929.0" layoutY="123.0" text="정장석" />
+      <Label layoutX="656.0" layoutY="123.0" text="김헌주" />
+      <Label layoutX="424.0" layoutY="116.0" text="김창성" />
+      <Button fx:id="e3" layoutX="72.0" layoutY="698.0" mnemonicParsing="false" onAction="#example3" prefHeight="47.0" prefWidth="420.0" />
+      <Button fx:id="e2" layoutX="656.0" layoutY="619.0" mnemonicParsing="false" onAction="#example2" prefHeight="47.0" prefWidth="420.0" />
+      <Button fx:id="e1" layoutX="72.0" layoutY="619.0" mnemonicParsing="false" onAction="#example1" prefHeight="47.0" prefWidth="420.0" />
+      <Button fx:id="e4" layoutX="656.0" layoutY="698.0" mnemonicParsing="false" onAction="#example4" prefHeight="47.0" prefWidth="420.0" />
+      <Label fx:id="me" alignment="CENTER" layoutX="123.0" layoutY="527.0" prefHeight="55.0" prefWidth="949.0" style="-fx-background-color: #ddd;" />
+      <Label layoutX="72.0" layoutY="527.0" prefHeight="55.0" prefWidth="51.0" text="나:" />
+      <Button layoutX="1106.0" layoutY="537.0" mnemonicParsing="false" onAction="#next" prefHeight="36.0" prefWidth="67.0" text="다음" />
+      <ImageView fx:id="imgView5" fitHeight="150.0" fitWidth="200.0" layoutX="1186.0" layoutY="157.0" pickOnBounds="true" preserveRatio="true" />
+      <ImageView fx:id="imgView4" fitHeight="150.0" fitWidth="200.0" layoutX="920.0" layoutY="149.0" pickOnBounds="true" preserveRatio="true" />
+      <ImageView fx:id="imgView3" fitHeight="150.0" fitWidth="200.0" layoutX="650.0" layoutY="149.0" pickOnBounds="true" preserveRatio="true" />
+      <ImageView fx:id="imgView1" fitHeight="150.0" fitWidth="200.0" layoutX="114.0" layoutY="149.0" pickOnBounds="true" preserveRatio="true" />
+      <Button layoutX="27.0" layoutY="37.0" mnemonicParsing="false" onAction="#back" prefHeight="36.0" prefWidth="90.0" text="포기하기" />
+      <ImageView fx:id="imgView2" fitHeight="150.0" fitWidth="200.0" layoutX="418.0" layoutY="149.0" pickOnBounds="true" preserveRatio="true" />
+      <Button layoutX="1194.0" layoutY="537.0" mnemonicParsing="false" onAction="#p" prefHeight="36.0" prefWidth="145.0" text="바로 범인 잡으러 가기" />
+   </children>
+</AnchorPane>

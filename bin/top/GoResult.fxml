@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.layout.AnchorPane?>
+
+<AnchorPane prefHeight="150.0" prefWidth="300.0" xmlns="http://javafx.com/javafx/10.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="top.GoTop">
+   <children>
+      <Button layoutX="230.0" layoutY="8.0" mnemonicParsing="false" onAction="#back" text="뒤로가기" />
+      <Label layoutX="14.0" layoutY="119.0" text="암호:" textFill="#003bff" />
+      <Label layoutX="8.0" layoutY="12.0" text="고조선:" textFill="#003bff" />
+      <Label layoutX="14.0" layoutY="81.0" text="고려:" textFill="#003bff" />
+      <Label layoutX="2.0" layoutY="47.0" text="삼국시대:" textFill="#003bff" />
+      <Label fx:id="top0" alignment="CENTER" layoutX="62.0" layoutY="12.0" prefHeight="17.0" prefWidth="40.0" textFill="#003bff" />
+      <Label fx:id="top1" alignment="CENTER" layoutX="62.0" layoutY="47.0" prefHeight="17.0" prefWidth="40.0" textFill="#003bff" />
+      <Label fx:id="top2" alignment="CENTER" layoutX="62.0" layoutY="81.0" prefHeight="17.0" prefWidth="40.0" textFill="#003bff" />
+      <Label fx:id="p" alignment="CENTER" layoutX="62.0" layoutY="119.0" prefHeight="17.0" prefWidth="40.0" textFill="#003bff" />
+   </children>
+</AnchorPane>

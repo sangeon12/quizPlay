@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+
+<AnchorPane prefHeight="600.0" prefWidth="900.0" xmlns="http://javafx.com/javafx/10.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="tutorial.OldTController">
+   <children>
+      <Button layoutX="842.0" layoutY="565.0" mnemonicParsing="false" onAction="#next" text="다음" />
+      <Button layoutX="791.0" layoutY="565.0" mnemonicParsing="false" onAction="#back" text="이전" />
+      <ImageView fx:id="imgView1" fitHeight="300.0" fitWidth="384.0" layoutX="21.0" layoutY="14.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../../../Old1T.PNG" />
+         </image>
+      </ImageView>
+      <ImageView fx:id="imgView2" fitHeight="150.0" fitWidth="200.0" layoutX="114.0" layoutY="332.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../../../Old2T.PNG" />
+         </image>
+      </ImageView>
+      <ImageView fx:id="imgView3" fitHeight="150.0" fitWidth="200.0" layoutX="115.0" layoutY="455.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../../../Old3T.PNG" />
+         </image>
+      </ImageView>
+      <ImageView fx:id="imgView4" fitHeight="150.0" fitWidth="200.0" layoutX="434.0" layoutY="26.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../../../Old4T.PNG" />
+         </image>
+      </ImageView>
+      <ImageView fx:id="imgView5" fitHeight="150.0" fitWidth="200.0" layoutX="430.0" layoutY="170.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../../../Old5T.PNG" />
+         </image>
+      </ImageView>
+      <ImageView fx:id="imgView6" fitHeight="150.0" fitWidth="200.0" layoutX="675.0" layoutY="14.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../../../Old6T.PNG" />
+         </image>
+      </ImageView>
+      <Label layoutX="133.0" layoutY="281.0" text="1. 넌센스 퀴즈의 첫 화면입니다." textFill="#003bff" />
+      <Label layoutX="33.0" layoutY="427.0" text="2. 입력창에 정답을 적고 확인버튼을 누르면 맞았으면 정답이라 뜹니다." textFill="#003bff" />
+      <Label layoutX="57.0" layoutY="561.0" text="3. 정답이 틀렸다면 틀렸다는 문구가 나오고 정답이 나옵니다." textFill="#003bff" />
+      <Label layoutX="462.0" layoutY="127.0" text="4. 모르면 패스하도록 합시다." textFill="#003bff" />
+      <Label layoutX="618.0" layoutY="176.0" text="5. 풀었으면 확인 버튼을 눌러 다음 문제로 넘어갑니다." textFill="#003bff" />
+      <Label layoutX="405.0" layoutY="266.0" text="6. 도중에 그만 두고 싶으면 뒤로가기를 누릅시다." textFill="#003bff" />
+      <ImageView fx:id="imgView7" fitHeight="212.0" fitWidth="448.0" layoutX="416.0" layoutY="295.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../../../Old7T.PNG" />
+         </image>
+      </ImageView>
+      <Label layoutX="437.0" layoutY="522.0" text="7. 전부다 풀면 맞은 계수와 그에 따른 엔딩이 나옵니다." textFill="#003bff" />
+      <Button layoutX="727.0" layoutY="565.0" mnemonicParsing="false" onAction="#exit" text="나가기" />
+      <Label layoutX="445.0" layoutY="569.0" text="2/5" textFill="RED" />
+   </children>
+</AnchorPane>

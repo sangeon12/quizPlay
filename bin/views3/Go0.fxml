@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane prefHeight="400.0" prefWidth="700.0" xmlns="http://javafx.com/javafx/10.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="views3.Go12Controller">
+   <children>
+      <Label fx:id="go34Quiz" alignment="CENTER" layoutX="11.0" layoutY="136.0" prefHeight="64.0" prefWidth="678.0" />
+      <AnchorPane onDragDetected="#backToMainPage" prefHeight="400.0" prefWidth="700.0">
+         <children>
+            <Label alignment="CENTER" layoutX="313.0" layoutY="111.0" prefHeight="26.0" prefWidth="75.0" text="나:" textFill="#9705ff">
+               <font>
+                  <Font size="22.0" />
+               </font>
+            </Label>
+            <Label fx:id="hQuiz" alignment="CENTER" layoutY="153.0" prefHeight="94.0" prefWidth="682.0" textFill="#003bff">
+               <font>
+                  <Font size="18.0" />
+               </font>
+            </Label>
+            <TextField fx:id="txt" layoutX="175.0" layoutY="253.0" prefHeight="47.0" prefWidth="213.0" />
+            <Button layoutX="388.0" layoutY="253.0" mnemonicParsing="false" onAction="#answer" prefHeight="47.0" prefWidth="75.0" text="확인" />
+            <Button layoutX="463.0" layoutY="253.0" mnemonicParsing="false" onAction="#next2" prefHeight="47.0" prefWidth="75.0" text="패스" />
+            <Button layoutX="36.0" layoutY="31.0" mnemonicParsing="false" onAction="#backToMainPage" prefHeight="26.0" prefWidth="75.0" text="뒤로가기" />
+         </children>
+      </AnchorPane>
+   </children>
+</AnchorPane>

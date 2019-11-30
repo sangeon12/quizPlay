@@ -1,0 +1,12 @@
+AnchorPane{
+	-fx-background-image: url("/img2/backfhrh.png");
+	-fx-background-size: 100% 100%;
+	-fx-background-position: center;
+}
+Label{
+	-fx-font-color:rgb(0, 59, 255)
+}
+.imgView1 {
+	-fx-background-size: 100%100%;
+	
+}

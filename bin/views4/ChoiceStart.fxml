@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane prefHeight="400.0" prefWidth="700.0" xmlns="http://javafx.com/javafx/10.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="views4.ChoiceController">
+   <children>
+      <Button layoutX="14.0" layoutY="14.0" mnemonicParsing="false" onAction="#back" prefHeight="26.0" prefWidth="77.0" text="뒤로가기" />
+      <Label fx:id="s" alignment="CENTER" layoutX="23.0" layoutY="47.0" prefHeight="95.0" prefWidth="656.0" textFill="#003bff">
+         <font>
+            <Font size="20.0" />
+         </font>
+      </Label>
+      <Button layoutX="265.0" layoutY="153.0" mnemonicParsing="false" prefHeight="39.0" prefWidth="77.0" text="다음" />
+      <Button layoutX="362.0" layoutY="153.0" mnemonicParsing="false" prefHeight="39.0" prefWidth="77.0" text="건너뛰기" />
+      <Button layoutX="154.0" layoutY="329.0" mnemonicParsing="false" onAction="#e4" prefHeight="26.0" prefWidth="188.0" text="동물원 살인 사건" />
+      <Button layoutX="154.0" layoutY="267.0" mnemonicParsing="false" onAction="#e1" prefHeight="26.0" prefWidth="188.0" text="빌라 살인 사건" />
+      <Button layoutX="362.0" layoutY="267.0" mnemonicParsing="false" onAction="#e2" prefHeight="26.0" prefWidth="188.0" text="학교 살인 사건" />
+      <Button layoutX="362.0" layoutY="329.0" mnemonicParsing="false" onAction="#e3" prefHeight="26.0" prefWidth="188.0" text="자택 살인사건" />
+   </children>
+</AnchorPane>

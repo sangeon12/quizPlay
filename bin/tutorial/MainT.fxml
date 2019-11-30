@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+
+<AnchorPane prefHeight="600.0" prefWidth="900.0" xmlns="http://javafx.com/javafx/10.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="tutorial.MainTController">
+   <children>
+      <ImageView fx:id="imgView1" fitHeight="227.0" fitWidth="199.0" layoutX="66.0" layoutY="14.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../../../Main1T.PNG" />
+         </image>
+      </ImageView>
+      <ImageView fx:id="imgView2" fitHeight="227.0" fitWidth="208.0" layoutX="352.0" layoutY="14.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../../../Main2T.PNG" />
+         </image>
+      </ImageView>
+      <ImageView fx:id="imgView3" fitHeight="150.0" fitWidth="305.0" layoutX="563.0" layoutY="24.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../../../Main33T.PNG" />
+         </image>
+      </ImageView>
+      <Label layoutX="12.0" layoutY="253.0" prefHeight="48.0" prefWidth="308.0" text="1. 4개의 퀴즈중 원하는 퀴즈를 선택하여 풀 수 있습니다." textFill="#003bff" />
+      <Label layoutX="348.0" layoutY="269.0" text="2. 최고점수와 암호가 갱신됩니다." textFill="#003bff" />
+      <Label layoutX="576.0" layoutY="174.0" text="3. 이처럼 주어진 문제를 다 맞춘다면 암호가 생깁니다." textFill="#003bff" />
+      <ImageView fx:id="imgView4" fitHeight="150.0" fitWidth="200.0" layoutX="66.0" layoutY="326.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../../../Main4T.PNG" />
+         </image>
+      </ImageView>
+      <ImageView fx:id="imgView5" fitHeight="131.0" fitWidth="287.0" layoutX="458.0" layoutY="363.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../../../Main5T.PNG" />
+         </image>
+      </ImageView>
+      <Label layoutX="14.0" layoutY="518.0" text="4. 암호 4개를 전부 모으면 히든 퀴즈를 풀 수 있습니다." textFill="#003bff" />
+      <Label layoutX="447.0" layoutY="518.0" text="5. 풀러가기를 누른뒤 예를 들어 암호가 &quot;안녕하세요&quot;라면" textFill="#003bff" />
+      <Button layoutX="835.0" layoutY="563.0" mnemonicParsing="false" onAction="#next" text="다음" />
+      <Button layoutX="769.0" layoutY="563.0" mnemonicParsing="false" onAction="#exit" text="나가기" />
+      <Label layoutX="458.0" layoutY="546.0" text="&quot;안녕하세요&quot;를 입력한후 히든퀴즈를 풀 수 있습니다." textFill="#0d00ff" />
+      <Label layoutX="429.0" layoutY="567.0" text="1/5" textFill="RED" />
+   </children>
+</AnchorPane>

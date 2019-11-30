@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+
+<AnchorPane prefHeight="600.0" prefWidth="900.0" xmlns="http://javafx.com/javafx/10.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="tutorial.ITController">
+   <children>
+      <ImageView fx:id="imgView1" fitHeight="196.0" fitWidth="318.0" layoutX="14.0" layoutY="20.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../../../퀴즈플레이%20사진%20자료/I1T.PNG" />
+         </image>
+      </ImageView>
+      <ImageView fx:id="imgView2" fitHeight="187.0" fitWidth="381.0" layoutX="30.0" layoutY="263.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../../../퀴즈플레이%20사진%20자료/I2T.PNG" />
+         </image>
+      </ImageView>
+      <ImageView fx:id="imgView3" fitHeight="205.0" fitWidth="335.0" layoutX="365.0" layoutY="17.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../../../퀴즈플레이%20사진%20자료/I3T.PNG" />
+         </image>
+      </ImageView>
+      <ImageView fx:id="imgView4" fitHeight="39.0" fitWidth="163.0" layoutX="717.0" layoutY="126.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../../../퀴즈플레이%20사진%20자료/I4T.PNG" />
+         </image>
+      </ImageView>
+      <ImageView fx:id="imgView5" fitHeight="131.0" fitWidth="264.0" layoutX="356.0" layoutY="270.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../../../퀴즈플레이%20사진%20자료/I5T.PNG" />
+         </image>
+      </ImageView>
+      <ImageView fx:id="imgView6" fitHeight="131.0" fitWidth="222.0" layoutX="649.0" layoutY="270.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../../../퀴즈플레이%20사진%20자료/I6T.PNG" />
+         </image>
+      </ImageView>
+      <ImageView fx:id="imgView7" fitHeight="69.0" fitWidth="139.0" layoutX="30.0" layoutY="508.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../../../퀴즈플레이%20사진%20자료/I7T.PNG" />
+         </image>
+      </ImageView>
+      <Label layoutX="100.0" layoutY="227.0" text="1. 추리퀴즈 첫 화면 입니다." textFill="#001aff" />
+      <Label layoutX="40.0" layoutY="473.0" text="2. 간단한 스토리 이후 4개의 사건을 고를 수 있습니다." textFill="#001aff" />
+      <Label layoutX="447.0" layoutY="236.0" text="3. 이후 스토리 모드로 진행 되며" textFill="#001aff" />
+      <Label layoutX="714.0" layoutY="167.0" text="4. 다음 버튼으로 스토리를 진행" textFill="#001aff" />
+      <Label layoutX="732.0" layoutY="184.0" prefHeight="17.0" prefWidth="133.0" text="바로 범인 잡으러 가기로" textFill="#001aff" />
+      <Label layoutX="706.0" layoutY="205.0" text="스토리 모드를 건너뛸 수 있습니다." textFill="#001aff" />
+      <Label layoutX="153.0" layoutY="534.0" text="선택지를 고르고 꼭 다음 버튼을 눌러 진행하세요." textFill="RED" />
+      <Label layoutX="447.0" layoutY="442.0" text="5. 이후 범인을 고르고, 왜 범인인지 발키는 선택형 문제도 있습니다." textFill="#0200ff" />
+      <Button layoutX="766.0" layoutY="563.0" mnemonicParsing="false" onAction="#exit" text="나가기" />
+      <Button layoutX="831.0" layoutY="563.0" mnemonicParsing="false" onAction="#back" text="이전" />
+      <Label layoutX="436.0" layoutY="567.0" text="5/5" textFill="RED" />
+   </children>
+</AnchorPane>

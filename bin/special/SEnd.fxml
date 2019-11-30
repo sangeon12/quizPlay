@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane prefHeight="400.0" prefWidth="700.0" xmlns="http://javafx.com/javafx/10.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="special.SFinish">
+   <children>
+      <Label fx:id="r" alignment="CENTER" layoutX="10.0" layoutY="130.0" prefHeight="52.0" prefWidth="680.0" textFill="#003bff">
+         <font>
+            <Font size="20.0" />
+         </font>
+      </Label>
+      <Button layoutX="285.0" layoutY="216.0" mnemonicParsing="false" onAction="#end" prefHeight="37.0" prefWidth="131.0" text="나가기" />
+   </children>
+</AnchorPane>

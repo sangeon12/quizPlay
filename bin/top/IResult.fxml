@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.layout.AnchorPane?>
+
+<AnchorPane prefHeight="100.0" prefWidth="300.0" xmlns="http://javafx.com/javafx/10.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="top.ITop">
+   <children>
+      <Button layoutX="238.0" layoutY="3.0" mnemonicParsing="false" onAction="#back" prefHeight="23.0" prefWidth="74.0" text="뒤로가기" />
+      <Label layoutX="25.0" layoutY="43.0" prefHeight="15.0" prefWidth="34.0" text="암호:" textFill="#003bff" />
+      <Label fx:id="p" alignment="CENTER" layoutX="59.0" layoutY="43.0" prefHeight="15.0" prefWidth="55.0" text="???" textFill="#003bff" />
+   </children>
+</AnchorPane>
